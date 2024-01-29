@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#img {
+    height: 100%;
+    width: 100%;
+    background: url('your-image-url.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px);
+    transition: filter 2s ease-out;
+}
+#text {
+    color: white;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 2s ease-out; 
+}

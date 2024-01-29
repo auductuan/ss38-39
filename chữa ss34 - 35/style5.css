@@ -1,0 +1,10 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+.counter-item {
+    text-align: center;
+}

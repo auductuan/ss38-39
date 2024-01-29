@@ -1,0 +1,28 @@
+#item {
+    display: flex;
+  }
+  
+  .step{
+    border: 2px solid blue;
+    color: grey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .step.active {
+    color: blue;
+    font-weight: bold;
+
+  }
+  
+
+  button {
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
